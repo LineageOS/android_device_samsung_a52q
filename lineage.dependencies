@@ -1,0 +1,6 @@
+[
+    {
+        "repository": "android_device_samsung_sm7125-common",
+        "target_path": "device/samsung/sm7125-common"
+    }
+]
