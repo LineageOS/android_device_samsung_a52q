@@ -22,5 +22,8 @@ include device/samsung/sm7125-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG        := vendor/lineage-a52q_defconfig
 BOARD_NAME                  := SRPTH31C002
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := a52q

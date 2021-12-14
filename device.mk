@@ -20,3 +20,14 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # call the common setup
 $(call inherit-product, device/samsung/sm7125-common/common.mk)
+
+# call the proprietary setup
+$(call inherit-product, vendor/samsung/a52q/a52q-vendor.mk)
+
+# Init files
+PRODUCT_PACKAGES += \
+    init.a52q.rc
+
+# Audio
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
