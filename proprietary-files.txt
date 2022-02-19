@@ -23,10 +23,6 @@ vendor/lib/libsnpe_dsp_domains_v2.so
 vendor/lib/libSNPE.so
 vendor/lib/libsnpe_wrapper.so
 
-# Bluetooth
-vendor/firmware/apbtfw11.tlv
-vendor/firmware/crbtfw21.tlv
-
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
