@@ -25,11 +25,9 @@ vendor/lib/libsnpe_wrapper.so
 
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
-vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_vdis.so
 vendor/lib/camera/components/com.wrapper.stats.aec.so
-vendor/lib64/camera/components/com.wrapper.stats.aec.so
 vendor/lib/camera/com.qti.eeprom.sec2qcconversion.so
 vendor/lib/camera/com.samsung.sensor.gc5035.so
 vendor/lib64/camera/com.samsung.sensor.gc5035.so
@@ -59,8 +57,6 @@ vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib64/hw/com.samsung.chi.override.so
 vendor/lib/libsec2qc_conversion.so
 vendor/lib64/libsec2qc_conversion.so
-vendor/lib/libface_landmark.arcsoft.so
-vendor/lib64/libface_landmark.arcsoft.so
 vendor/lib/libvdis_interface.so
 vendor/lib64/libvdis_interface.so
 
