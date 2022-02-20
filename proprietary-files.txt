@@ -81,3 +81,4 @@ vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD04_FHD.xml
 vendor/etc/sensors/config/atoll_qrd_ak991x_0.json
 vendor/etc/sensors/config/atoll_qrd_ak991x_2.json
 vendor/etc/sensors/config/atoll_qrd_ak991x_6.json
+vendor/etc/sensors/config/atoll_qrd_lsm6dso_0.json
