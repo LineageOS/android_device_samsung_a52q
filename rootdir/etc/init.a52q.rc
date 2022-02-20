@@ -86,20 +86,29 @@ on boot
     chmod 0664 /dev/cpuset/moderate/tasks
     chmod 0664 /dev/cpuset/moderate/cpus
 
+# Permissions for booster
+    chown root system /sys/class/kgsl/kgsl-3d0/min_pwrlevel
+    chown root system /sys/class/kgsl/kgsl-3d0/max_pwrlevel
+    chown root system /sys/class/kgsl/kgsl-3d0/gpu_available_frequencies
+    chown radio system /sys/power/cpufreq_min_limit
+    chown radio system /sys/power/cpufreq_max_limit
+    chown radio system /sys/power/cpufreq_table
+    chown root system /sys/class/devfreq/soc:qcom,cpu6-cpu-ddr-latfloor/min_freq
+    chown root system /sys/class/devfreq/soc:qcom,cpu6-cpu-ddr-latfloor/max_freq
+    chown root system /dev/cpuset/restricted/cpus
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/min_pwrlevel
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/max_pwrlevel
+    chmod 0664 /sys/class/kgsl/kgsl-3d0/gpu_available_frequencies
+    chmod 0664 /sys/power/cpufreq_min_limit
+    chmod 0664 /sys/power/cpufreq_max_limit
+    chmod 0444 /sys/power/cpufreq_table
+    chmod 0664 /dev/cpuset/restricted/cpus
+    chmod 0664 /sys/class/devfreq/soc:qcom,cpu6-cpu-ddr-latfloor/min_freq
+    write /dev/cpuset/restricted/cpus 0-7
+
 # SSWAP
     write /proc/sys/vm/swappiness 130
-
-# SQZR
-on property:sys.boot_completed=1
-    swapon_all /vendor/etc/fstab.sqzr
-
-on property:sys.sysctl.zram_balance_ratio=*
-    write /sys/module/zram/parameters/zram_balance_ratio ${sys.sysctl.zram_balance_ratio}
 
 on post-fs-data
     # MST/NFC Switch
     chmod 0660 /dev/mst_ctrl
-
-# SSU (Samsung SIM Unlock)
-on property:ro.boot.carrierid=MXO
-    setprop ssu.support 1
