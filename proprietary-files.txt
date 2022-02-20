@@ -77,9 +77,6 @@ vendor/lib64/libgf_in_system_lib.so
 # Graphics
 vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS646YD04_FHD.xml
 
-# Neuralnetworks
-vendor/lib/libhta.so
-
 # Sensors
 vendor/etc/sensors/config/atoll_qrd_ak991x_0.json
 vendor/etc/sensors/config/atoll_qrd_ak991x_2.json
