@@ -1,4 +1,4 @@
-# All blobs are from A525FXXU4BVG1, unless pinned
+# All blobs are from A525FXXU4CVJB, unless pinned
 
 # ACDB
 vendor/etc/audconf/ODM/Global_cal.acdb

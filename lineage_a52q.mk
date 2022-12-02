@@ -43,6 +43,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# Fingerprint
-BUILD_FINGERPRINT := "samsung/a52qnsxx/qssi:12/SP1A.210812.016/A525FXXU4BVG1:user/release-keys"
-PRIVATE_BUILD_DESC := "a52qnsxx-user 12 SP1A.210812.016 A525FXXU4BVG1 release-keys"
+# Vendor fingerprint
+BUILD_FINGERPRINT := "samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXU4CVJB:user/release-keys"
+PRIVATE_BUILD_DESC := "a52qnsxx-user 11 RP1A.200720.012 A525FXXU4CVJB release-keys"
