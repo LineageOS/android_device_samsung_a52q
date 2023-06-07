@@ -44,5 +44,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-samsung
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Vendor fingerprint
-BUILD_FINGERPRINT := "samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXU4CVJB:user/release-keys"
-PRIVATE_BUILD_DESC := "a52qnsxx-user 11 RP1A.200720.012 A525FXXU4CVJB release-keys"
+BUILD_FINGERPRINT := "samsung/a52qnsxx/a52q:11/RP1A.200720.012/A525FXXS5DWD1:user/release-keys"
+PRIVATE_BUILD_DESC := "a52qnsxx-user 11 RP1A.200720.012 A525FXXS5DWD1 release-keys"
+
+# Security patch
+VENDOR_SECURITY_PATCH := 2023-04-01
