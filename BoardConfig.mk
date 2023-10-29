@@ -22,6 +22,12 @@ include device/samsung/sm7125-common/BoardConfigCommon.mk
 TARGET_KERNEL_CONFIG        := vendor/lineage-a52q_defconfig
 BOARD_NAME                  := SRPTH31C002
 
+# Camera
+SOONG_CONFIG_NAMESPACES += samsungCameraVars
+SOONG_CONFIG_samsungCameraVars += extra_ids
+# ID=54 is macro
+SOONG_CONFIG_samsungCameraVars_extra_ids := 54
+
 # Display
 TARGET_SCREEN_DENSITY := 420
 
