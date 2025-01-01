@@ -17,6 +17,8 @@
 # Inherit device configuration
 $(call inherit-product, device/samsung/a52q/device.mk)
 
+TARGET_SUPPORTS_OMX_SERVICE := false
+
 # Inherit from the 64 bit configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
