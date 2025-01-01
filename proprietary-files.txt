@@ -57,23 +57,13 @@ vendor/lib/hw/com.samsung.chi.override.so
 vendor/lib64/hw/com.samsung.chi.override.so
 vendor/lib/hw/camera.qcom.so
 vendor/lib64/hw/camera.qcom.so
-vendor/lib/libsec2qc_conversion.so
-vendor/lib64/libsec2qc_conversion.so
-vendor/lib/libvdis_interface.so
-vendor/lib64/libvdis_interface.so
 
 # Fingerprint
-vendor/lib/libbauthserver.so
 vendor/lib64/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
 vendor/lib64/libbauthtzcommon.so
-vendor/lib/libsynaFpSensorTestNwd.so
 vendor/lib64/libsynaFpSensorTestNwd.so
-vendor/lib/libegis_fp_normal_sensor_test.so
 vendor/lib64/libegis_fp_normal_sensor_test.so
-vendor/lib/libqfp_sensortest.so
 vendor/lib64/libqfp_sensortest.so
-vendor/lib/libgf_in_system_lib.so
 vendor/lib64/libgf_in_system_lib.so
 
 # Graphics
