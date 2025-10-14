@@ -32,3 +32,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 $(call soong_config_set,samsungCameraVars,extra_ids,54) # ID=54 is macro
+
+# Display
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/display/display_id_4630947232161729153.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947232161729153.xml

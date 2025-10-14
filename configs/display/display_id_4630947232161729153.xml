@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<displayConfiguration>
+    <screenBrightnessMap>
+        <point>
+            <value>0.0</value>
+            <nits>2</nits>
+        </point>
+        <point>
+            <value>0.0247</value>
+            <nits>9.9</nits>
+        </point>
+        <point>
+            <value>0.0741</value>
+            <nits>34.8</nits>
+        </point>
+        <point>
+            <value>0.2181</value>
+            <nits>135.5</nits>
+        </point>
+        <point>
+            <value>0.428</value>
+            <nits>322.7</nits>
+        </point>
+        <point>
+            <value>0.4918</value>
+            <nits>386.2</nits>
+        </point>
+        <point>
+            <value>0.5144</value>
+            <nits>409.4</nits>
+        </point>
+        <point>
+            <value>0.5247</value>
+            <nits>420</nits>  <!-- Maximum non-HBM brightness nits -->
+        </point>
+        <point>
+            <value>0.5267</value>
+            <nits>425</nits> <!-- HBM -->
+        </point>
+        <point>
+            <value>0.537</value>
+            <nits>433.1</nits> <!-- HBM -->
+        </point>
+        <point>
+            <value>1.0</value>
+            <nits>800</nits> <!-- HBM -->
+        </point>
+    </screenBrightnessMap>
+
+    <screenBrightnessDefault>0.48235294</screenBrightnessDefault>
+
+    <highBrightnessMode enabled="true">
+        <transitionPoint>0.5247</transitionPoint>
+        <minimumHdrPercentOfScreen>0.1</minimumHdrPercentOfScreen>
+        <minimumLux>3000</minimumLux>
+        <timing>
+            <timeWindowSecs>1800</timeWindowSecs>
+            <timeMaxSecs>300</timeMaxSecs>
+            <timeMinSecs>60</timeMinSecs>
+        </timing>
+        <sdrHdrRatioMap>
+            <point>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>8.0</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>800.0</sdrNits>
+                <hdrRatio>2.0</hdrRatio>
+            </point>
+        </sdrHdrRatioMap>
+    </highBrightnessMode>
+
+    <autoBrightness enabled="true">
+        <brighteningLightDebounceMillis>4000</brighteningLightDebounceMillis>
+        <darkeningLightDebounceMillis>8000</darkeningLightDebounceMillis>
+        <brighteningLightDebounceIdleMillis>4000</brighteningLightDebounceIdleMillis>
+        <darkeningLightDebounceIdleMillis>8000</darkeningLightDebounceIdleMillis>
+    </autoBrightness>
+
+    <hdrBrightnessConfig>
+        <brightnessMap>
+        </brightnessMap>
+        <brightnessIncreaseDebounceMillis>0</brightnessIncreaseDebounceMillis>
+        <screenBrightnessRampIncrease>-1.0</screenBrightnessRampIncrease>
+        <brightnessDecreaseDebounceMillis>0</brightnessDecreaseDebounceMillis>
+        <screenBrightnessRampDecrease>-1.0</screenBrightnessRampDecrease>
+    </hdrBrightnessConfig>
+
+    <lightSensor>
+        <type>com.samsung.sensor.auto_brightness</type>
+        <name>stk_stk31610 Auto Brightness Non-wakeup</name>
+    </lightSensor>
+</displayConfiguration>
