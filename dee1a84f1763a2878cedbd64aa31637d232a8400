@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e6b5af89_3b69ee0f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-01-18T23:30:15Z",
+      "side": 1,
+      "message": "I think you shouldn\u0027t remove this note",
+      "revId": "dee1a84f1763a2878cedbd64aa31637d232a8400",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "c57f9da6_bba68c35",
+        "filename": "device.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 35721
+      },
+      "writtenOn": "2026-01-18T23:30:15Z",
+      "side": 1,
+      "message": "```suggestion\n$(call soong_config_set,samsungCameraVars,extra_ids,54) # ID\u003d54 is macro\n```",
+      "revId": "dee1a84f1763a2878cedbd64aa31637d232a8400",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
