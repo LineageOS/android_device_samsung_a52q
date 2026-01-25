@@ -109,6 +109,9 @@ on boot
 # SSWAP
     write /proc/sys/vm/swappiness 130
 
+# Fingerprint
+    write /sys/class/sec/tsp/cmd "set_fod_rect,421,2018,659,2256"
+
 on post-fs-data
     # MST/NFC Switch
     chmod 0660 /dev/mst_ctrl
