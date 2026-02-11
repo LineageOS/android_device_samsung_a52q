@@ -3,3 +3,4 @@ bluetooth.device.default_name=Galaxy A52 4G
 
 # Fingerprint
 ro.vendor.fingerprint.sensor_location=540|2137|119
+ro.vendor.fingerprint.screen_off_press_delay=200
