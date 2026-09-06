@@ -23,6 +23,9 @@ vendor/lib/libsnpe_dsp_domains_v2.so
 vendor/lib/libSNPE.so
 vendor/lib/libsnpe_wrapper.so
 
+# Audio
+vendor/etc/SoundBoosterParam.txt
+
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib/camera/components/com.samsung.node.uniplugin_recording.so
