@@ -25,6 +25,8 @@ vendor/lib/libsnpe_wrapper.so
 
 # Audio
 vendor/etc/SoundBoosterParam.txt
+vendor/etc/dolby/dax-default.xml
+vendor/lib/soundfx/libswdap.so
 
 # Camera
 vendor/lib/camera/components/com.samsung.node.smooth_transition.so
